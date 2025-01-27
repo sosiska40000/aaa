@@ -1,0 +1,64 @@
+.math {
+	position: relative;
+	color: lightblue;
+	cursor: pointer;
+}
+.math.copied {
+	color: darkcyan
+}
+.image-section {
+	display: flex;
+	justify-content: center;
+	background-color: pink;
+}
+
+.image-section img {
+	max-width: 100%;
+	height: 20vh;
+}
+
+.preview-container {
+	background-color: #092253;
+	padding: 5px;
+	> div {
+		margin-bottom: 10px;
+	}
+}
+
+.preview-list-container {
+	padding: 10px;
+	background-color: #031437;
+}
+
+.preview-list-entry {
+	color: lightgray;
+}
+
+.preview-list-entry.active{
+	color: white;
+}
+
+.steps-container {
+	padding: 5px;
+	background-color: #092253
+}
+
+.step-container .left {
+	.top-row {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.substep {
+	margin-top: 10px;
+	padding: 5px;
+	background-color: #031437;
+	border-left: solid;
+}
+
+.substep .top-row {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
